@@ -1,9 +1,18 @@
 /* Add styling for your page here */
 
 .App {
-
+    background-color: rgb(125, 219, 219);
+    padding: 2rem 6rem;
 }
 
 .BakeryItem {
-  
+  color: black;
+  background-color: aquamarine;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }

@@ -37,6 +37,26 @@ export default function BakeryItem({item, onAddClick, onRemClick}) {
       }
     }
 
+    function getFoodType() {
+      let dessert = ""
+      let breakfast = ""
+      if (item.properties.some(food => food === "dessert")) {
+        dessert = "Dessert"
+      }
+      if (item.properties.some(food => food === "breakfast")) {
+        breakfast = "Breakfast"
+      }
+      if (dessert === "Dessert" && breakfast === "Breakfast") {
+        return "Breakfast, Dessert"
+      } else if (dessert === "Dessert") {
+        return dessert;
+      } else if (breakfast === "Breakfast") {
+        return breakfast;
+      }
+      
+
+    }
+
     return <div className="BakeryItem">
         <h2>{item.name}</h2>
         <img 
@@ -44,6 +64,7 @@ export default function BakeryItem({item, onAddClick, onRemClick}) {
         alt={item.description}
         />
       <p>{item.description}</p>
+      <p>Type of food: {getFoodType()}</p>
       <h3>{item.price}</h3>
       {(item.properties.some(propt => propt ==="Fave")) ? <button disabled>Add to Favorites</button> :
       <button onClick={() => handleAddChange(item)}>Add to Favorites</button>}

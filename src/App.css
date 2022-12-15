@@ -3,16 +3,25 @@
 .App {
     background-color: rgb(125, 219, 219);
     padding: 2rem 6rem;
+
+}
+@media screen and (max-width: 768px) {
+  .Item-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-.BakeryItem {
-  color: black;
-  background-color: aquamarine;
+.Main-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  /* align-items: start; */
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 2rem;
+
+  .Item-container {
+    display: grid;
+    margin-right: 30px;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
   }

@@ -3,90 +3,135 @@
     "name": "Chocolate Chip Cookies",
     "description": "Four classic chocolate chip cookies",
     "price": 7.99,
-    "image": "images/anika.png"
+    "image": "images/anika.png",
+    "healthy": false,
+    "properties": ["dessert", "> $5", "All Prices"],
+    "number": 1
   },
   {
     "name": "Matcha Mille Crepe Cake",
     "description": "Layers of matcha crepe and matcha cream filling, topped with strawberries",
     "price": 4.99,
-    "image": "images/aubrey.png"
+    "image": "images/aubrey.png",
+    "healthy": true,
+    "properties": ["breakfast","dessert", "$3-$5", "All Prices"],
+    "number": 2
   },
   {
     "name": "Egg Custard Bun",
     "description": "A fluffy steamed bun with a savory egg filling",
     "price": 2.99,
-    "image": "images/connie.png"
+    "image": "images/connie.png",
+    "healthy": false,
+    "properties": ["dessert", "< $3", "All Prices"],
+    "number": 3
   },
   {
     "name": "Steamed Taro Buns",
     "description": "Two soft steamed buns filled with gooey purple taro filling",
     "price": 5.99,
-    "image": "images/dylan.png"
+    "image": "images/dylan.png",
+    "healthy": true,
+    "properties": ["breakfast","dessert", "> $5", "All Prices"],
+    "number": 4
   },
   {
     "name": "Chocolate Fudge Brownie",
     "description": "A rich fudge brownie drizzled with chocolate ganache",
     "price": 3.99,
-    "image": "images/isaac.png"
+    "image": "images/isaac.png",
+    "healthy": false,
+    "properties": ["dessert", "$3-$5", "All Prices"],
+    "number": 5
   },
   {
     "name": "Macarons",
     "description": "A box of three macarons in assorted flavors",
     "price": 4.99,
-    "image": "images/jeff.png"
+    "image": "images/jeff.png",
+    "healthy": false,
+    "properties": ["dessert", "$3-$5", "All Prices"],
+    "number": 6
   },
   {
     "name": "Multigrain Bread",
     "description": "A loaf of fresh-baked multigrain bread",
     "price": 4.99,
-    "image": "images/jenny.png"
+    "image": "images/jenny.png",
+    "healthy": true,
+    "properties": ["breakfast", "$3-$5", "All Prices"],
+    "number": 7
   },
   {
     "name": "Croissant",
     "description": "A classic butter croissant with a flaky crust",
     "price": 2.99,
-    "image": "images/jessie.png"
+    "image": "images/jessie.png",
+    "healthy": true,
+    "properties": ["breakfast", "< $3", "All Prices"],
+    "number": 8
   },
   {
     "name": "Toast with Butter",
     "description": "A slice of toast with a pat of butter",
     "price": 1.99,
-    "image": "images/kelly.png"
+    "image": "images/kelly.png",
+    "healthy": true,
+    "properties": ["breakfast", "< $3", "All Prices"],
+    "number": 9
   },
   {
     "name": "Tiramisu",
     "description": "A classic tiramisu with layers of coffee-soaked ladyfingers and mascarpone cream",
     "price": 3.99,
-    "image": "images/lauren.png"
+    "image": "images/lauren.png",
+    "healthy": false,
+    "properties": ["dessert", "$3-$5", "All Prices"],
+    "number": 10
   },
   {
     "name": "Egg Tart",
     "description": "A flaky pastry shell filled with a sweet egg custard",
     "price": 2.99,
-    "image": "images/melissa.png"
+    "image": "images/melissa.png",
+    "healthy": false,
+    "properties": ["breakfast","dessert", "< $3", "All Prices"],
+    "number": 11
   },
   {
     "name": "Everything Bagel",
     "description": "A toasted bagel with sesame seeds, poppy seeds, and dried onion",
     "price": 2.99,
-    "image": "images/miku.png"
+    "image": "images/miku.png",
+    "healthy": true,
+    "properties": ["breakfast", "< $3", "All Prices"],
+    "number": 12
   },
   {
     "name": "Gingerbread Man",
     "description": "A soft gingerbread cookie with a sweet icing glaze",
     "price": 2.99,
-    "image": "images/nick.png"
+    "image": "images/nick.png",
+    "healthy": false,
+    "properties": ["dessert", "< $3", "All Prices"],
+    "number": 13
   },
   {
     "name": "Cheesecake",
     "description": "A slice of classic New York cheesecake topped with strawberry",
     "price": 3.99,
-    "image": "images/sunny.png"
+    "image": "images/sunny.png",
+    "healthy": false,
+    "properties": ["dessert", "$3-$5", "All Prices"],
+    "number": 14
   },
   {
     "name": "Cream Puff",
     "description": "Light and airy pâte à choux filled with sweet whipped cream",
     "price": 2.99,
-    "image": "images/tongyu.png"
+    "image": "images/tongyu.png",
+    "healthy": false,
+    "properties": ["dessert","< $3", "All Prices"],
+    "number": 15
   }
 ]
